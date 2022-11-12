@@ -1,7 +1,8 @@
 export default {
   port: 1337,
   origin: "http://localhost:3000",
-  dbUri: "mongodb://localhost:27017/rest-api-tutorial",
+  dbUri:
+    "mongodb+srv://ryan:aaa1@cluster0.dezqyas.mongodb.net/?retryWrites=true&w=majority",
   saltWorkFactor: 10,
   accessTokenTtl: "15m",
   refreshTokenTtl: "1y",
@@ -26,4 +27,8 @@ WeigleiFFBl85kvoMwZp2A4Z8EakMgX7fp0vCwYqgLLAsat0vHzJ3fiMd0g3T8Yg
 svPkdjt/qEIocryChqsCQGnInFDk9fC5C8G1Ez2N/p0WztoPDNKfYVDGZ8IRMjEy
 rPeH03CIhIoh6QPPg02GKC3VumQxgwOe2wkQ2OgHYLE=
 -----END RSA PRIVATE KEY-----`,
+  googleClientId:
+    "853219084562-ck56r4k5das33i9rclc6nqu5h960md5m.apps.googleusercontent.com",
+  googleClientSecret: "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",
+  googleOAuthRedirectUrl: "http://localhost:1337/api/sessions/oauth/google",
 };
